@@ -1,0 +1,116 @@
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+    transition: font-size 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    font-size: 1.5rem;
+    background-color: orange;
+    color: black;
+    transition: font-size 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.logo-animation{
+    animation: rotateAnimation 0.5s;
+}
+.orange-logo {
+    filter: invert(100%) sepia(100%) saturate(200%) hue-rotate(20deg);
+}
+
+
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.wrapper{
+    
+    padding: 1%;
+    width:80%;
+    margin: 0 auto;
+}
+
+.main-content{
+    padding: 1% 0;
+    background-color: rgb(245, 245, 245);
+}
+.darkBtn{
+    color: white;
+    text-decoration: none;
+}
+
+.darkBtn:hover {
+    color: orange;
+}
+
+.greenBtn{
+    color: white;
+    text-decoration: none;
+}
+
+.greenBtn:hover{
+    color: lime;
+}
+
+.redBtn{
+    color: white;
+    text-decoration: none;
+}
+
+.redBtn:hover{
+    color:black;
+}
+
+.blueBtn{
+    color: white;
+    text-decoration: none;
+}
+.blueBtn:hover{
+    color: cyan;
+}
+footer {
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+}  
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+footer ul li :hover {
+    color: orange;
+}
+
+tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.outerbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dark-container {
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    color: white;
+}

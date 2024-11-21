@@ -1,0 +1,214 @@
+.wholeBg{
+    background-color: rgba(255, 214, 153, 1);
+}
+
+.wholeNav{
+    background-color: rgba(217, 130, 0, 1);
+}
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+    transition: font-size 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    font-size: 1.5rem;
+    background-color: rgba(217, 130, 0, 1);
+    color: black;
+    transition: font-size 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.logo-animation{
+    animation: rotateAnimation 0.5s;
+}
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+/* Additional CSS for carousel */
+
+.carousel-inner img {
+    max-height: 400px; /* Adjust the height as desired */
+    object-fit: cover;
+}
+
+.orange-logo {
+  filter: invert(100%) sepia(100%) saturate(200%) hue-rotate(20deg);
+}
+
+.bg1{
+    background-image:url(pic/bg1.png);
+}
+
+.promoPic1 {
+    background-image: url(menu_pic/1.png);
+    /* width: 100%; 
+    height: auto; 
+    margin: auto;
+    padding: 10%;
+    background-size: cover; 
+    background-position: center;  */
+}
+
+
+.promoPic2{
+    background-image:url(menu_pic/1.png);
+    /* width: 200%; 
+    margin: auto;
+    padding: 10%; */
+    
+}
+
+
+.orderPage{
+    background-image:url(pic/bg2.png);
+    width: 100%; 
+    margin: auto;
+    padding: 10%;
+}
+
+
+.btn1{
+    background-color: rgba(217, 130, 0, 1);
+    color: white;
+    border: none;
+}
+
+.type1{
+    background-color: orange;
+    /*margin-left: -15px; /* Remove default left margin */
+    /*margin-right: -15px; /* Remove default right margin */
+    /*padding-left: 0; /* Remove default left padding */
+    /*padding-right: 0; /* Remove default right padding */
+    /* margin-bottom: 40px; /* Adjust the margin as needed */
+
+}
+
+.orange-container {
+    background-color: orange;
+}
+  
+.dark-container {
+    background-color: rgb(34, 34, 34);
+    color: #ffffff;
+}
+
+footer {
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+}  
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+footer ul li :hover {
+    color: orange;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container_1 {
+    text-align: center;
+    background: #f5f5f5;
+}
+
+.header {
+    padding-top: 30px;
+    color: #444;
+    font-size: 20px;
+    margin: auto;
+    line-height: 50px;
+}
+
+.sub-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teams {
+    flex: 1;
+    margin: 10px;
+    padding: 22px;
+    max-width: 30%;
+    cursor: pointer;
+    transition: 0.4s;
+    box-sizing: border-box;
+}
+
+.teams:hover {
+    background: orange;
+    border-radius: 12px;
+}
+
+.teams img {
+    width: 200px;
+    height: 200px;
+}
+
+.name {
+    padding: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.desig {
+    font-style: italic;
+    color: #888;
+}
+
+.about {
+    margin: 20px 0;
+    font-weight: lighter;
+    color: #4e4e4e;
+}
+
+.social-links {
+    margin: 14px;
+}
+
+.social-links a {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    transition: .4s;
+}
+
+.social-links a:hover {
+    transform: scale(1.5);
+}
+
+.social-links a i {
+    color: #444;
+}
+
+@media screen and (max-width: 600px) {
+    .teams {
+        max-width: 100%;
+    }
+}
+
+.outerbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dark-container {
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    color: white;
+}
